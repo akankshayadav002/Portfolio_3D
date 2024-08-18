@@ -53,7 +53,7 @@ const SpacemanCanvas = () => {
     const handleResize = () => {
       if (window.innerWidth < 768) {
         setScale([0.008, 0.008, 0.008]); // Smaller for mobile
-        setPosition([0, -0.3, 0]);
+        setPosition([-0.1, -0.3, 0]);
       } else if (window.innerWidth < 1024) {
         setScale([0.009, 0.009, 0.009]); // Adjusted for tablets
         setPosition([0, -0.4, 0]);
