@@ -51,15 +51,26 @@ const SpacemanCanvas = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth < 768) {
-        setScale([0.008, 0.008, 0.008]); // Smaller for mobile
+      if (width < 480) {
+        // Small phones
+        setScale([0.006, 0.006, 0.006]); // Very small for tiny screens
+        setPosition([0, -0.2, 0]);
+        setCameraPosition([0, 0.6, 4]); // Closer camera for smaller screens
+      } else if (width < 768) {
+        // Regular phones
+        setScale([0.008, 0.008, 0.008]); // Small for phones
         setPosition([0, -0.3, 0]);
-      } else if (window.innerWidth < 1024) {
-        setScale([0.009, 0.009, 0.009]); // Adjusted for tablets
+        setCameraPosition([0, 0.8, 4]); // Adjusted camera for phones
+      } else if (width < 1024) {
+        // Tablets
+        setScale([0.009, 0.009, 0.009]); // Adjust for tablets
         setPosition([0, -0.4, 0]);
+        setCameraPosition([0, 1, 4]); // Adjusted camera for tablets
       } else {
-        setScale([0.01, 0.01, 0.01]); // Desktop size
+        // Desktops and larger screens
+        setScale([0.01, 0.01, 0.01]); // Larger size for desktops
         setPosition([0, -0.5, 0]);
+        setCameraPosition([0, 1, 4]); // Default camera for desktops
       }
     };
 
