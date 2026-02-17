@@ -3,8 +3,6 @@
 An interactive 3D developer portfolio built with React, Vite, Tailwind CSS, and @react-three/fiber.  
 It showcases experience, projects, and a contact form with smooth animations and a floating 3D spaceman.
 
-> Note: Image placeholders (`port1`–`port6`) are left in this README so you can easily attach screenshots later.
-
 ---
 
 ## 🚀 Features
@@ -20,28 +18,22 @@ It showcases experience, projects, and a contact form with smooth animations and
 - Smooth scroll and section highlighting in the navbar using `IntersectionObserver`
 - Fully responsive layout with Tailwind CSS
 
+
 ---
 
-## 🖼️ Screenshots (placeholders)
+## 🖼️ Deployment Link (Live project)
+https://portfolio-3-d-git-main-akankshas-projects-22a532f1.vercel.app/
 
-Add your screenshots into `src/assets` as `port1.png`, `port2.png`, etc.,  
-then update the paths below (or just change the filenames if you keep them as-is).
 
-```md
-![](./src/assets/port1.png) <!-- Hero section -->
-![](./src/assets/port2.png) <!-- Experience section -->
-![](./src/assets/port3.png) <!-- Projects section -->
-![](./src/assets/port4.png) <!-- Project detail -->
-![](./src/assets/port5.png) <!-- Contact section -->
-![](./src/assets/port6.png) <!-- Mobile view / alternate view -->
-```
+---
+---
 
-You can also add captions like:
+## 🖼️ Screenshots (Live project)
+![Home Screen](./src/assets/port2.png)
+![Experience](./src/assets/port3.png)
+![Projects](./src/assets/port5.png)
+![Contact](./src/assets/port6.png)
 
-```md
-![Hero section](./src/assets/port1.png)
-![Experience section](./src/assets/port2.png)
-```
 
 ---
 
