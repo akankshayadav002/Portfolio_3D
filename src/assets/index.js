@@ -6,8 +6,20 @@ import algorithms from "./algorithms.png";
 import devnotes from "./devnotes.png";
 import oscs from "./oscs.png";
 
-import fp2 from "./fp2.png"
-import campuscart from './campuscart.png'
-import frameflow from './frameflow.png'
-export { algorithms, close, devnotes, logo, menu, oscs,fp2,campuscart,frameflow };
+import fp2 from "./fp2.png";
+import campuscart from "./campuscart.png";
+import frameflow from "./frameflow.png";
+import behindthelabel from "./behindthelabel.png";
 
+export {
+  algorithms,
+  behindthelabel,
+  campuscart,
+  close,
+  devnotes,
+  fp2,
+  frameflow,
+  logo,
+  menu,
+  oscs,
+};
