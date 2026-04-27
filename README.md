@@ -128,7 +128,7 @@ Edit the experiences in:
 ```js
 const experiences = [
   {
-    title: "Associate Software Engineer",
+    title: "Software Engineer",
     company_name: "314e, Bangalore",
     date: "SEP 2024 - DEC 2025",
     details: [

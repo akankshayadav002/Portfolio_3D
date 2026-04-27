@@ -29,7 +29,17 @@ export const navLinks = [
 
 const experiences = [
   {
-    title: "Associate Software Engineer",
+    title: "Software Engineer II",
+    company_name: "Boringproject.ai, Remote",
+    date: "FEB 2026 - PRESENT",
+    details: [
+      "Architected a scalable backend using FastAPI, Celery, Redis, and MongoDB, processing<span style='color: white;'> 1000+ automated job applications/day</span> across 15+ ATS integrations with a modular plugin architecture",
+      "Built a distributed task pipeline handling<span style='color: white;'> 30 concurrent tasks/min</span> with exponential backoff retries, and integrated<span style='color: white;'> OpenAI GPT-4o APIs</span> for resume parsing and intelligent form-filling, automating<span style='color: white;'> 90%+ multi-step submissions</span>",
+      "Engineered Redis-backed rate limiting, query caching, idempotency middleware, and SSE real-time events, reducing redundant API calls by<span style='color: white;'> 60%</span> and cutting undetected failures by<span style='color: white;'> 70%</span> with internal monitoring and automated stuck-job recovery",
+    ],
+  },
+  {
+    title: "Software Engineer",
     company_name: "314e, Bangalore",
     date: "SEP 2024 - DEC 2025",
     details: [
